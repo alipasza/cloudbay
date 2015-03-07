@@ -7,21 +7,25 @@ class bootstrap {
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
-        print_r($url);
-        echo "<br>url0=" . $url[0];
-        return false;
         Session::init();
 
         if (strpos($url[0], '.php') > 0) {
             $url[0] = substr($url[0], 0, strpos($url[0], '.php'));
         }
         
+        print_r($url);
         if (empty($url[0])) {
             require 'controllers/index.php';
             $controller = new Index();
             $controller->index();
             return false;
         }
+ else {
+                 require 'controllers/index.php';
+            $controller = new Index();
+            $controller->index();
+            return false;
+ }
 
         $file = 'controllers/' . $url[0] . '.php';
         if (file_exists($file) && $url[0] != 'error') {
