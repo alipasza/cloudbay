@@ -19,7 +19,8 @@ class bootstrap {
             $controller->index();
             return false;
         }
-
+        echo 'AAAAA';
+        return;
         $file = 'controllers/' . $url[0] . '.php';
         if (file_exists($file) && $url[0] != 'error') {
             require $file;
@@ -32,6 +33,7 @@ class bootstrap {
         $controller = new $url[0];
         $controller->loadModel($url[0]);
 
+        echo 'BBB';
         //calling methods 
         if (isset($url[2])) {
             if (method_exists($controller, $url[1])) {
