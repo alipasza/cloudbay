@@ -7,14 +7,12 @@ class bootstrap {
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
-        echo '000';
-        return;
         Session::init();
 
         if (strpos($url[0], '.php') > 0) {
             $url[0] = substr($url[0], 0, strpos($url[0], '.php'));
         }
-        echo print_r($url);
+        
         if (empty($url[0])) {
             require 'controllers/index.php';
             $controller = new Index();
