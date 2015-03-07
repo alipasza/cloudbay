@@ -7,6 +7,8 @@ class bootstrap {
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
+        echo '000';
+        return;
         Session::init();
 
         if (strpos($url[0], '.php') > 0) {
