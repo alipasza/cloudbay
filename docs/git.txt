@@ -1,0 +1,4 @@
+https://github.com/alipasza/cloudbay
+u:alipasza1@gazeta.pl
+h:januszb1
+repository:cloudbay
