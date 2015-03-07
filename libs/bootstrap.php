@@ -4,17 +4,6 @@ class bootstrap {
 
     function __construct() {
 
-        echo 'get=' . $_GET['url'];
-        
-        $url = explode('/', $_GET['url']);
-        echo '<br>url=';
-        print_r($url);
-        
-        require 'controllers/index.php';
-        $controller = new Index();
-        $controller->index();
-        return false;
-
         $url = isset($_GET['url']) ? $_GET['url'] : null;
         $url = rtrim($url, '/');
         $url = explode('/', $url);
@@ -25,15 +14,7 @@ class bootstrap {
             $url[0] = substr($url[0], 0, strpos($url[0], '.php'));
         }
 
-        print_r($url);
         if (empty($url[0])) {
-            require 'controllers/index.php';
-            $controller = new Index();
-            $controller->index();
-            return false;
-        }
-        //do usuniecia ten nawias
-        else {
             require 'controllers/index.php';
             $controller = new Index();
             $controller->index();
@@ -52,7 +33,6 @@ class bootstrap {
         $controller = new $url[0];
         $controller->loadModel($url[0]);
 
-        echo 'BBB';
         //calling methods 
         if (isset($url[2])) {
             if (method_exists($controller, $url[1])) {
@@ -78,7 +58,5 @@ class bootstrap {
             }
         }
     }
-
 }
-
 ?>
