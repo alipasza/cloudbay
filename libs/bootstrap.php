@@ -7,6 +7,9 @@ class bootstrap {
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
+        print_r($url);
+        echo "<br>url0=" . $url[0];
+        return false;
         Session::init();
 
         if (strpos($url[0], '.php') > 0) {
@@ -19,8 +22,7 @@ class bootstrap {
             $controller->index();
             return false;
         }
-        echo 'AAAAA';
-        return;
+
         $file = 'controllers/' . $url[0] . '.php';
         if (file_exists($file) && $url[0] != 'error') {
             require $file;
