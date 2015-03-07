@@ -3,6 +3,18 @@
 class bootstrap {
 
     function __construct() {
+
+        echo 'get=' . $_GET['url'];
+        
+        $url = explode('/', $_GET['url']);
+        echo '<br>url=';
+        print_r($url);
+        
+        require 'controllers/index.php';
+        $controller = new Index();
+        $controller->index();
+        return false;
+
         $url = isset($_GET['url']) ? $_GET['url'] : null;
         $url = rtrim($url, '/');
         $url = explode('/', $url);
@@ -12,7 +24,7 @@ class bootstrap {
         if (strpos($url[0], '.php') > 0) {
             $url[0] = substr($url[0], 0, strpos($url[0], '.php'));
         }
-        
+
         print_r($url);
         if (empty($url[0])) {
             require 'controllers/index.php';
@@ -20,12 +32,13 @@ class bootstrap {
             $controller->index();
             return false;
         }
- else {
-                 require 'controllers/index.php';
+        //do usuniecia ten nawias
+        else {
+            require 'controllers/index.php';
             $controller = new Index();
             $controller->index();
             return false;
- }
+        }
 
         $file = 'controllers/' . $url[0] . '.php';
         if (file_exists($file) && $url[0] != 'error') {
