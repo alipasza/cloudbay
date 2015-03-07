@@ -12,7 +12,7 @@ class bootstrap {
         if (strpos($url[0], '.php') > 0) {
             $url[0] = substr($url[0], 0, strpos($url[0], '.php'));
         }
-
+        echo print_r($url);
         if (empty($url[0])) {
             require 'controllers/index.php';
             $controller = new Index();
