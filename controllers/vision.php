@@ -22,5 +22,4 @@ class Vision Extends Controller {
         
         $this->view->render('vision/benefits', 'page-discover-action-benefit');
     }
-
 }
