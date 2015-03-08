@@ -31,7 +31,7 @@
         }
         ?>
     </head>
-    <body id="<?php echo $bodyName; ?>" onload="FocusOnAlias()">
+    <body id="<?php echo $bodyName; ?>">
         <div class="overlay hide"></div>
         <div id="top"></div>
         <div id="header">
@@ -53,11 +53,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-responsive-collapse">
                         <ul class="nav navbar-nav pull-left nav-public">
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>index">Home</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>services">Services</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>customers">Customers</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>community">Community</a></li>
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>aboutus">About Us</a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>download">Download</a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>live">Live Trial</a></li>
                         </ul>
 
                         <ul class="nav navbar-nav pull-right">

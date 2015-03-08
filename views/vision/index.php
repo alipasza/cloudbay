@@ -18,8 +18,8 @@
 
             <div class="col-xs-2">
                 <div class="item ">
-                    <a href=<?php echo URL . "vision/learn";?>><img src=<?php echo URL . "public/ico/thinking-gears.png";?> class="img-responsive" alt="Learn"></a>
-                    <a href=<?php echo URL . "vision/learn";?>>Watch &amp; Learn</a>
+                    <a href=<?php echo URL . "vision/strategy";?>><img src=<?php echo URL . "public/ico/thinking-gears.png";?> class="img-responsive" alt="Learn"></a>
+                    <a href=<?php echo URL . "vision/strategy";?>>Strategy</a>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
     <div class="container container-fluid">
         <div class="col-md-12">
             
-<h1>Discover</h1>
+<h1>Vision</h1>
 
         </div>
     </div>
@@ -56,7 +56,7 @@
         
 <ol class="breadcrumb">
     <li><a href=<?php echo URL;?>>Home</a></li>
-    <li class="active">Discover</li>
+    <li class="active">Vision</li>
 </ol>
 
 <div class="social-share">

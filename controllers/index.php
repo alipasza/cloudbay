@@ -12,7 +12,7 @@ class Index extends Controller {
         $this->view->render('index/index', 'page-index');
     }
 
-    public function terms() {
+    public function aboutus() {
 
         $this->view->render('index/terms', 'page-index-action-terms');
     }

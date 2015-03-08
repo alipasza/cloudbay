@@ -10,7 +10,7 @@
             <small>
                 CloudBay mail
             </small>
-            <form class="form-inline validate" action="https://cloudbay.us7.list-manage.com/subscribe/post?u=c15f3eb6b4d64a6cbdc77eb9b&amp;id=5a56a15329" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+            <form class="form-inline validate" action="https://cloudbay.us7.list-manage.com/subscribe/post?u=c15f3eb6b4d64a6cbdc77eb9b&amp;id=XXX5a56a15329" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                 <div class="form-group">
                     <input type="email" value="" name="EMAIL" class="form-control input-sm" id="mce-EMAIL" placeholder="Email Address" required>
                 </div>
@@ -24,8 +24,8 @@
         <div class="pull-right col-md-5">
             <p class="attribution text-right" style="margin-top: 30px">
                 <small>
-                    <a href="/lab">Lab</a>
-                    <a href="/terms">Terms and Privacy</a>
+                    <a href="<?php echo URL; ?>index/aboutus">About us</a>
+                    <a href="<?php echo URL; ?>terms">Terms and Privacy</a>
                     &copy;2015 CloudBay&nbsp
                 </small>
             </p>

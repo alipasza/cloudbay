@@ -1,3 +1,4 @@
+<!-- view/vision/benefits.php -->
 <div id="discover-intro">
     <div class="container container-fluid">
         <div class="row">
@@ -9,23 +10,23 @@
         <div class="row">
 
             <div class="col-xs-2 col-xs-offset-2">
-                <div class="item ">
-                    <a href="/discover"><img src="/img/ico/64/lamp.png" class="img-responsive" alt="Discover" pagespeed_url_hash="1482458512" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
-                    <a href="/discover">Discover</a>
+                <div class="item">
+                    <a href=<?php echo URL . "vision";?>><img src=<?php echo URL . "public/ico/lamp.png";?> class="img-responsive" alt="Vision"></a>
+                    <a href=<?php echo URL . "vision";?>>Vision</a>
                 </div>
             </div>
 
             <div class="col-xs-2">
-                <div class="item ">
-                    <a href="/discover/learn"><img src="/img/ico/64/thinking-gears.png" class="img-responsive" alt="Learn" pagespeed_url_hash="247905875" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
-                    <a href="/discover/learn">Watch &amp; Learn</a>
+                <div class="item">
+                    <a href=<?php echo URL . "vision/strategy";?>><img src=<?php echo URL . "public/ico/thinking-gears.png";?> class="img-responsive" alt="Learn"></a>
+                    <a href=<?php echo URL . "vision/strategy";?>>Strategy</a>
                 </div>
             </div>
 
             <div class="col-xs-2">
                 <div class="item active">
-                    <a href="/discover/benefit"><img src="/img/ico/64/application-gears.png" class="img-responsive" alt="Benefit" pagespeed_url_hash="2497240149" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
-                    <a href="/discover/benefit">Benefits</a>
+                    <a href=<?php echo URL . "vision/benefits";?>><img src=<?php echo URL . "public/ico/application-gears.png";?> class="img-responsive" alt="Benefit"></a>
+                    <a href=<?php echo URL . "vision/benefits";?>>Benefits</a>
                 </div>
             </div>
 
@@ -38,7 +39,6 @@
         </div>
     </div>
 </div>
-
 
 <div id="title-bar" class="">
     <div class="container container-fluid">
@@ -55,7 +55,7 @@
         
 <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
-    <li><a href="/discover">Discover</a></li>
+    <li><a href="<?php echo URL; ?>/vision/strategy">Strategy</a></li>
     <li class="active">Benefit</li>
 </ol>
 
@@ -122,7 +122,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <a href="/user/register" class="btn btn-primary btn-xl">Create a Free Account</a>
+            <a href=<?php echo URL . "login/register"; ?> class="btn btn-primary btn-xl">Create a Free Account</a>
         </div>
     </div>
 </div>
