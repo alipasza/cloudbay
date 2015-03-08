@@ -17,12 +17,14 @@ class View {
 
         $bodyName = $bodyNamePar;
         $msg = $msgPar;
+
         if (strpos($name, '.php') > 0) {
             $name = substr($name, 0, strpos($name, '.php'));
         }
-        require '/views/header.php';
-        require '/views/' . $name . '.php';
-        require '/views/footer.php';
+
+        require 'views/header.php';
+        require 'views/' . $name . '.php';
+        require 'views/footer.php';
     }
 
     public function validateText($str, &$retValue, $minLenStr = 0, $maxLenStr = 128) {
@@ -107,7 +109,5 @@ class View {
         $data = htmlspecialchars($data);
         return $data;
     }
-
 }
-
 ?>

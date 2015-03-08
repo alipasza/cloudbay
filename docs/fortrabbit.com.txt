@@ -3,7 +3,7 @@ fortrabbit.com
 SSH
 user:u-cloudbay
 host:ssh2.eu1.frbit.com
-passwd:k3IPNWdkzJO.i65i=yFxrvTj
+passwd:1Y6+vXLBZO94cJdW2JMaQMMM
 
 MySQL
 host:cloudbay.mysql.eu1.frbit.com
