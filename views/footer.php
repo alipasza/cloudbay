@@ -26,12 +26,12 @@
                 <small>
                     <a href="/lab">Lab</a>
                     <a href="/terms">Terms and Privacy</a>
-                    &copy;2015 CloudBay
+                    &copy;2015 CloudBay&nbsp
                 </small>
             </p>
-            <p>
+            <!--<p>
                 <small>GLYPHICONS.com </small>
-            </p>
+            </p>-->
         </div>
     </div>
 </div>

@@ -73,36 +73,36 @@
     <div class="row">
 
         <div class="col-md-3 col-md-offset-1 featured-course text-center">
-            <a href="https://jream.com/product/view/php-punch-in-the-face" class="fadeover">
-                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/php-punch-in-the-face-sm.jpg" alt="PHP Punch in the Face">
+            <a href="http://www.google.pl" class="fadeover">
+                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/php-punch-in-the-face-sm.jpg" alt="businessX">
             </a>
         </div>
         <div class="col-md-3 featured-course text-center">
-            <a href="https://jream.com/product/view/php-codeigniter" class="fadeover">
-                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/php-codeigniter-sm.jpg" alt="Learn Codeigniter">
+            <a href="http://www.google.pl" class="fadeover">
+                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/php-codeigniter-sm.jpg" alt="businessX">
             </a>
         </div>
         <div class="col-md-3 featured-course text-center">
-            <a href="https://jream.com/product/view/phalcon-php" class="fadeover">
-                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/phalcon-php-sm.jpg" alt="PhalconPHP">
+            <a href="http://www.google.pl" class="fadeover">
+                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/phalcon-php-sm.jpg" alt="businessX">
             </a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-3 col-md-offset-1 featured-course text-center">
-            <a href="https://jream.com/product/view/python-for-rookies" class="fadeover">
-                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/python-for-rookies-sm.jpg" alt="Python for Rookies">
+            <a href="http://www.google.pl" class="fadeover">
+                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/python-for-rookies-sm.jpg" alt="businessX">
             </a>
         </div>
         <div class="col-md-3 featured-course text-center">
-            <a href="https://jream.com/product/view/fresh-start-html-css" class="fadeover">
-                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/fresh-start-html-css-sm.jpg" alt="Fresh Start HTML/CSS">
+            <a href="http://www.google.pl" class="fadeover">
+                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/fresh-start-html-css-sm.jpg" alt="businessX">
             </a>
         </div>
         <div class="col-md-3 featured-course text-center">
-            <a href="https://jream.com/product/view/redis" class="fadeover">
-                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/redis-sm.jpg" alt="Redis" pagespeed_url_hash="1472822398">
+            <a href="http://www.google.pl" class="fadeover">
+                <img class="img-responsive img-thumbnail" src="<?php echo URL; ?>public/images/redis-sm.jpg" alt="businessX">
             </a>
         </div>
 
