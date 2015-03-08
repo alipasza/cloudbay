@@ -8,8 +8,8 @@
         <!-- css-y -->
         <link rel='stylesheet' href="<?php echo URL; ?>public/css/familyTitilliumWeb.css" type='text/css'>
         <link rel="stylesheet" href="<?php echo URL; ?>public/css/bootstrap.min.css" type="text/css">
-        <!--<link rel="stylesheet" href="<?php echo URL; ?>public/css/bootstrap-social.css" type="text/css">-->
-        <!--<link rel="stylesheet" href="<?php echo URL; ?>public/css/font-awesome.min.css" type="text/css"> -->
+        <link rel="stylesheet" href="<?php echo URL; ?>public/css/bootstrap-social.css" type="text/css">
+        <link rel="stylesheet" href="<?php echo URL; ?>public/css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="<?php echo URL; ?>public/css/devicons.min.css" type="text/css">
         <link rel="stylesheet" href="<?php echo URL; ?>public/css/minimalist.css" type="text/css">
 
