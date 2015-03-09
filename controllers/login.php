@@ -12,8 +12,8 @@ class Login extends Controller {
 
         $errMsg = '';
         $this->view->email = $this->view->password = "";
-        
-        if(isset($_COOKIE['login'])) {
+
+        if (isset($_COOKIE['login'])) {
             $this->view->email = $_COOKIE['login'];
         }
 
@@ -33,22 +33,34 @@ class Login extends Controller {
                 $this->view->render('login/index', 'page-user-action-login', $errMsg);
                 return;
             }
-            $joindatetime='';
+            $joindatetime = '';
             $res = $this->model->isLoginRegistered($_POST['email'], $_POST['password'], $role, $joindatetime, $timezone);
 
-            if ($res == true) {
+            if (isdebug) {
                 Session::set('email', $_POST['email']);
                 Session::set('role', $role);
                 Session::set('loggedIn', true);
                 Session::set('joindatetime', $joindatetime);
                 Session::set('timezone', $timezone);
-                
                 setcookie('login', $this->view->email, time() + (86400 * 30), "/"); // 86400 = 1 day
-                header('location: ' . URL . 'dashboard'); // header powoduje GETa a w FORM jest POST wiec aby to byl GET trzeba ustawic 'location'  
+                header('location: ' . URL . 'dashboard', 'page-dashboard');
                 return;
+                
             } else {
-                $this->view->render('login/index', 'page-user-action-login', 'Incorrect Credentials');
+                if ($res == true) {
+                Session::set('email', $_POST['email']);
+                Session::set('role', $role);
+                Session::set('loggedIn', true);
+                Session::set('joindatetime', $joindatetime);
+                Session::set('timezone', $timezone);
+
+                setcookie('login', $this->view->email, time() + (86400 * 30), "/"); // 86400 = 1 day
+                header('location: ' . URL . 'dashboard', 'page-dashboard');
                 return;
+                } else {
+                    $this->view->render('login/index', 'page-user-action-login', 'Incorrect Credentials');
+                    return;
+                }
             }
         } else {
             $this->view->render('login/index', 'page-user-action-login');

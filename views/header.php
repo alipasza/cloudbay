@@ -56,8 +56,7 @@
                             <li><a class="btn btn-login" href="<?php echo URL; ?>services">Services</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>customers">Customers</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>community">Community</a></li>
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>download">Download</a></li>
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>live">Live Trial</a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>live">Live Training</a></li>
                         </ul>
 
                         <ul class="nav navbar-nav pull-right">
@@ -67,13 +66,13 @@
                                     <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard/logout">Logout</a></li> -->
 
                                 <li class="mar-right-10">
-                                    <a class="btn btn-primary" href="<?php echo URL; ?>dashboard">Dashboard</a>
+                                    <a class="btn btn-primary" href="<?php echo URL; ?>dashboard#available-courses">Dashboard</a>
                                 </li>
                                 <li class="dropdown">
                                     <a data-toggle="dropdown" class="btn btn-primary" href="#">alipasza <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="<?php echo URL; ?>dashboard/account"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
-                                        <li><a href="<?php echo URL; ?>dashboard/logout"><span class="glyphicon glyphicon-comment"></span> Support</a></li>
+                                        <li><a href="<?php echo URL; ?>dashboard/support"><span class="glyphicon glyphicon-comment"></span> Support</a></li>
                                         <li class="divider"></li>
                                         <li><a href="<?php echo URL; ?>dashboard/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                                     </ul>

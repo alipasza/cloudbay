@@ -22,7 +22,7 @@
                                 <input class="form-control input-lg" type="text" id="email" name="email" placeholder="Email" value="<?php echo $this->email;?>" <?php if (strlen($this->email)==0):?>autofocus="autofocus"<?php endif;?>/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="text" id="password" name="password" placeholder="Password" value="<?php echo $this->password;?>" <?php if (strlen($this->email)!=0):?>autofocus="autofocus"<?php endif;?>/>
+                                <input class="form-control input-lg" type="password" id="password" name="password" placeholder="Password" value="<?php echo $this->password;?>" <?php if (strlen($this->email)!=0):?>autofocus="autofocus"<?php endif;?>/>
                             </div>
                             <!--<div class="form-group">
                                 <label class="form-group">Role</label>
