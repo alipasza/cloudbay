@@ -3,9 +3,9 @@
     <div class="container container-fluid">
         <div class="row">
             <div class="col-md-8 inner">
-                <h1 class="title">Live Trial</h1>
+                <h1 class="title">Live Training</h1>
                 <p>
-                    cloudBay is offering <b>live trial</b> sessions for groups of individuals
+                    cloudBay is offering <b>live training</b> sessions for groups of individuals
                     interested in a specific CRM topic. These sessions are set for specific dates and
                     time. A live training session will duration ranges between one to two hours.
                 </p>

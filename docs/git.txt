@@ -1,4 +1,7 @@
+https://netbeans.org/kb/docs/ide/github_nb_screencast.html
 https://github.com/alipasza/cloudbay
 u:alipasza1@gazeta.pl
 h:januszb1
-repository:cloudbay
+Repository:cloudbay
+u:alipasza
+h:januszb1

@@ -40,7 +40,7 @@
         <div class="tab-content">
             <div class="tab-pane active in fade" id="my-courses">
                                                 <div class="img-thumbnail img-responsive dashboard-image-list">
-                    <img src="/img/no-courses.jpg" alt="No Courses">
+                                                    <img src="<?php echo URL; ?>public/images/no-courses.jpg" alt="No Courses">
                 </div>
                             </div>
             <div class="tab-pane fade" id="available-courses">

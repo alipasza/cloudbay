@@ -1,5 +1,5 @@
 <?php 
 
-define('isdebug',true); 
+define('isdebug',false); 
 
 ?>

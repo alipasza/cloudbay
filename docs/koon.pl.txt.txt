@@ -23,5 +23,5 @@ Home page
 	http://cloudbay.koon.pl
 
 *****************
-MySQL DB Name 		MySQL User Name 	MySQL Password 				MySQL Host Name
+MySQL DB Name 		MySQL User Name 	MySQL Password 			MySQL Host Name
 koon_15953615_mvc	koon_15953615		(Your cPanel Password)		sql213.koon.pl
