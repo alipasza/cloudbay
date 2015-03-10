@@ -6,6 +6,7 @@ class Dashboard extends Controller {
 
         parent:: __construct();
         $this->view->timezone = $this->view->errinfo = $this->view->info = '';
+        $this->view->tabno = '';
         Session::init();
         $loggedIn = Session::get('loggedIn');
         if ($loggedIn == false) {
@@ -17,7 +18,7 @@ class Dashboard extends Controller {
         $this->view->js = array('dashboard/js/default.js');
     }
 
-    public function index($tabNo = 1) {
+    public function index() {
 
         $this->view->render('dashboard/index', 'page-dashboard');
     }
@@ -48,20 +49,6 @@ class Dashboard extends Controller {
                 $this->doTimezone();
                 return;
             }
-            /*
-              $res = $this->model->writeTimeZoneToUser();
-              if ($res == true) {
-              Session::set('timezone', $_POST['timezone']);
-              $this->view->render('dashboard/account', 'page-account', 'Timezone updated');
-              //header('location: ' . URL . 'dashboard'); // header powoduje GETa a w FORM jest POST wiec aby to byl GET trzeba ustawic 'location'
-              return;
-              } else {
-              $this->view->render('dashboard/account', 'page-account', 'Timezone NOT updated: ' . Session::get('email') . ', ' . $_POST['timezone']);
-              return;
-              }
-              }
-              $this->view->render('dashboard/account', 'page-account', '');
-              return; */
         }
         $this->view->render('dashboard/account', 'page-account');
         return;
@@ -69,7 +56,6 @@ class Dashboard extends Controller {
 
     function doTimezone() {
 
-        //$_POST['ala']=$_POST['timezone'];
         $res = $this->model->writeTimeZoneToUser();
 
         if ($res == true) {

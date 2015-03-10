@@ -8,8 +8,9 @@ class Index extends Controller {
     }
 
     public function index() {
-
+        require 'libs/cache/top-cache.php'; 
         $this->view->render('index/index', 'page-index');
+        require 'libs/cache/bottom-cache.php'; 
     }
 
     public function aboutus() {

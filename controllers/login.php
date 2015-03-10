@@ -134,23 +134,5 @@ class Login extends Controller {
     public function doPasswordReset() {
         
     }
-
-    /*
-      public function run() {
-
-      $res = $this->model->run($_POST['login'], $_POST['password'], $role);
-
-      if ($res == true) {
-      //Session::init(); //start w bootstrap
-      Session::set('role', $role);
-      Session::set('loggedIn', true);
-      header('location: ' . URL . 'dashboard'); // header powoduje GETa a w FORM jest POST wiec aby to byl GET trzeba ustawic 'location'
-      } else {
-      //Session::destroy();
-      header('location: ' . URL . 'login'); // header powoduje GETa
-      }
-      }
-     */
 }
-
 ?>

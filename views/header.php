@@ -32,6 +32,9 @@
         ?>
     </head>
     <body id="<?php echo $bodyName; ?>">
+        <div class="lang-switcher">
+								<a class="language" href="http://www.kir.pl/en/" title="Eng">Eng</a>
+							</div>
         <div class="overlay hide"></div>
         <div id="top"></div>
         <div id="header">
