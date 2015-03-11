@@ -40,8 +40,10 @@
                 <div class="list-group-item">
                 </div>
                 <div class="list-group-item">
-                    Timezone&nbsp;<strong><?php if (strlen($this->timezone) > 0): echo $this->timezone;
-endif; ?> </strong> <a href="#" id="toggle-timezone" class="pull-right">(change timezone)</a>
+                    Timezone&nbsp;<strong><?php
+                        if (strlen($this->timezone) > 0): echo $this->timezone;
+                        endif;
+                        ?> </strong> <a href="#" id="toggle-timezone" class="pull-right">(change timezone)</a>
 
                     <form id="form-timezone" class="form-inline pull-right hide" method="post" action="<?php echo URL; ?>dashboard/account/doTimezone"/>
                     <div class="form-group">
@@ -465,9 +467,9 @@ endif; ?> </strong> <a href="#" id="toggle-timezone" class="pull-right">(change 
                             <option value="UTC">UTC</option>
                         </select>
                         <input type="hidden" name="ala" value="<?php echo $this->info; ?>">
-                        
+
                     </div>
-                    <?php echo 'x=' . $this->info;?>
+                    <?php echo 'x=' . $this->info; ?>
                     <div class="form-group">
                         <input class="disable-click btn btn-sm btn-primary" type="submit" value="Update"/>
                     </div>

@@ -13,13 +13,14 @@ class Vision Extends Controller {
     }
 
     public function strategy() {
-        
+
         $this->view->render('vision/strategy', 'page-discover-action-learn');
         return;
     }
-    
-    public function  benefits() {
-        
+
+    public function benefits() {
+
         $this->view->render('vision/benefits', 'page-discover-action-benefit');
     }
+
 }

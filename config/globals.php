@@ -1,5 +1,4 @@
-<?php 
+<?php
 
-define('isdebug',true); 
-
+define('isdebug', true);
 ?>

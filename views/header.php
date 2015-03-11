@@ -33,8 +33,8 @@
     </head>
     <body id="<?php echo $bodyName; ?>">
         <div class="lang-switcher">
-								<a class="language" href="http://www.kir.pl/en/" title="Eng">Eng</a>
-							</div>
+            <a class="language" href="http://www.kir.pl/en/" title="Eng">Eng</a>
+        </div>
         <div class="overlay hide"></div>
         <div id="top"></div>
         <div id="header">
@@ -65,8 +65,8 @@
                         <ul class="nav navbar-nav pull-right">
                             <?php if (Session::get('loggedIn') == true): ?>
 
-                                <!--    <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard">Dashboard</a></li>
-                                    <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard/logout">Logout</a></li> -->
+                                            <!--    <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard">Dashboard</a></li>
+                                                <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard/logout">Logout</a></li> -->
 
                                 <li class="mar-right-10">
                                     <a class="btn btn-primary" href="<?php echo URL; ?>dashboard#available-courses">Dashboard</a>

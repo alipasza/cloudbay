@@ -13,4 +13,5 @@ class Terms extends Controller {
     }
 
 }
+
 ?>

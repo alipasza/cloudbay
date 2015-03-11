@@ -45,18 +45,17 @@ class Login extends Controller {
                 setcookie('login', $this->view->email, time() + (86400 * 30), "/"); // 86400 = 1 day
                 header('location: ' . URL . 'dashboard', 'page-dashboard');
                 return;
-                
             } else {
                 if ($res == true) {
-                Session::set('email', $_POST['email']);
-                Session::set('role', $role);
-                Session::set('loggedIn', true);
-                Session::set('joindatetime', $joindatetime);
-                Session::set('timezone', $timezone);
+                    Session::set('email', $_POST['email']);
+                    Session::set('role', $role);
+                    Session::set('loggedIn', true);
+                    Session::set('joindatetime', $joindatetime);
+                    Session::set('timezone', $timezone);
 
-                setcookie('login', $this->view->email, time() + (86400 * 30), "/"); // 86400 = 1 day
-                header('location: ' . URL . 'dashboard', 'page-dashboard');
-                return;
+                    setcookie('login', $this->view->email, time() + (86400 * 30), "/"); // 86400 = 1 day
+                    header('location: ' . URL . 'dashboard', 'page-dashboard');
+                    return;
                 } else {
                     $this->view->render('login/index', 'page-user-action-login', 'Incorrect Credentials');
                     return;
@@ -134,5 +133,7 @@ class Login extends Controller {
     public function doPasswordReset() {
         
     }
+
 }
+
 ?>

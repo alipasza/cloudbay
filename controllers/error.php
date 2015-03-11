@@ -15,4 +15,5 @@ class Error extends Controller {
             $this->view->render('error/index', 'page-error', "This Page Doesn't Exist");
         }
     }
+
 }

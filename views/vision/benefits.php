@@ -5,36 +5,36 @@
             <div class="col-md-12 inner">
                 <div class="discover-mini">
 
-    <div class="container container-fluid">
+                    <div class="container container-fluid">
 
-        <div class="row">
+                        <div class="row">
 
-            <div class="col-xs-2 col-xs-offset-2">
-                <div class="item">
-                    <a href=<?php echo URL . "vision";?>><img src=<?php echo URL . "public/ico/lamp.png";?> class="img-responsive" alt="Vision"></a>
-                    <a href=<?php echo URL . "vision";?>>Vision</a>
+                            <div class="col-xs-2 col-xs-offset-2">
+                                <div class="item">
+                                    <a href=<?php echo URL . "vision"; ?>><img src=<?php echo URL . "public/ico/lamp.png"; ?> class="img-responsive" alt="Vision"></a>
+                                    <a href=<?php echo URL . "vision"; ?>>Vision</a>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-2">
+                                <div class="item">
+                                    <a href=<?php echo URL . "vision/strategy"; ?>><img src=<?php echo URL . "public/ico/thinking-gears.png"; ?> class="img-responsive" alt="Learn"></a>
+                                    <a href=<?php echo URL . "vision/strategy"; ?>>Strategy</a>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-2">
+                                <div class="item active">
+                                    <a href=<?php echo URL . "vision/benefits"; ?>><img src=<?php echo URL . "public/ico/application-gears.png"; ?> class="img-responsive" alt="Benefit"></a>
+                                    <a href=<?php echo URL . "vision/benefits"; ?>>Benefits</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
-            </div>
-
-            <div class="col-xs-2">
-                <div class="item">
-                    <a href=<?php echo URL . "vision/strategy";?>><img src=<?php echo URL . "public/ico/thinking-gears.png";?> class="img-responsive" alt="Learn"></a>
-                    <a href=<?php echo URL . "vision/strategy";?>>Strategy</a>
-                </div>
-            </div>
-
-            <div class="col-xs-2">
-                <div class="item active">
-                    <a href=<?php echo URL . "vision/benefits";?>><img src=<?php echo URL . "public/ico/application-gears.png";?> class="img-responsive" alt="Benefit"></a>
-                    <a href=<?php echo URL . "vision/benefits";?>>Benefits</a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
             </div>
         </div>
     </div>
@@ -43,8 +43,8 @@
 <div id="title-bar" class="">
     <div class="container container-fluid">
         <div class="col-md-12">
-            
-<h1>Benefit</h1>
+
+            <h1>Benefit</h1>
 
         </div>
     </div>
@@ -52,28 +52,28 @@
 
 <div class="container container-fluid ">
     <div class="col-md-12">
-        
-<ol class="breadcrumb">
-    <li><a href="/">Home</a></li>
-    <li><a href="<?php echo URL; ?>/vision/strategy">Strategy</a></li>
-    <li class="active">Benefit</li>
-</ol>
 
-<div class="social-share">
-    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-        <a class="addthis_button_facebook"></a>
-        <a class="addthis_button_twitter"></a>
-        <a class="addthis_button_tumblr"></a>
-        <a class="addthis_button_compact"></a>
-    </div>
-</div>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="<?php echo URL; ?>/vision/strategy">Strategy</a></li>
+            <li class="active">Benefit</li>
+        </ol>
+
+        <div class="social-share">
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                <a class="addthis_button_facebook"></a>
+                <a class="addthis_button_twitter"></a>
+                <a class="addthis_button_tumblr"></a>
+                <a class="addthis_button_compact"></a>
+            </div>
+        </div>
 
     </div>
 </div>
 
 <div class="container container-fluid ">
     <div class="col-md-12">
-            </div>
+    </div>
 </div>
 
 
@@ -82,9 +82,9 @@
     <div class="row">
         <h2>Benefits You'll Get</h2>
         <p>
-        From my own personal life, freelancing, and professional corporate experience &mdash; the benefits of programming are
-        almost unbelievable. <span class="highlight">With skills you acquire, only you can apply them.</span>
-        I cannot do more than one job as one person, this is why I train people.
+            From my own personal life, freelancing, and professional corporate experience &mdash; the benefits of programming are
+            almost unbelievable. <span class="highlight">With skills you acquire, only you can apply them.</span>
+            I cannot do more than one job as one person, this is why I train people.
         </p>
 
         <div class="col-md-12">

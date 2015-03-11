@@ -2,8 +2,8 @@
 <div id="title-bar" class="">
     <div class="container container-fluid">
         <div class="col-md-12">
-            
-<h1>Support</h1>
+
+            <h1>Support</h1>
 
         </div>
     </div>
@@ -11,18 +11,18 @@
 
 <div class="container container-fluid ">
     <div class="col-md-12">
-        
-<ol class="breadcrumb">
-    <li><a href="<?php echo URL; ?>dashboard">Dashboard</a></li>
-    <li class="active">Support</li>
-</ol>
+
+        <ol class="breadcrumb">
+            <li><a href="<?php echo URL; ?>dashboard">Dashboard</a></li>
+            <li class="active">Support</li>
+        </ol>
 
     </div>
 </div>
 
 <div class="container container-fluid ">
     <div class="col-md-12">
-            </div>
+    </div>
 </div>
 
 
@@ -34,8 +34,8 @@
                 <div class="panel-body">
                     <p>
                         <small>
-                        Support is provided on an as-is basis for problems arising from content on
-                        cloudBay. This does not include any support for YouTube videos.
+                            Support is provided on an as-is basis for problems arising from content on
+                            cloudBay. This does not include any support for YouTube videos.
                         </small>
                     </p>
                     <form id="form-support" method="post" action="/dashboard/support/do">
@@ -44,16 +44,16 @@
                         </div>
                         <div class="form-group">
                             <select name="type" class="form-control">
-                                                                <option value="error">Report an Error</option>
-                                                                <option value="support">General Support</option>
-                                                            </select>
+                                <option value="error">Report an Error</option>
+                                <option value="support">General Support</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <textarea name="content" class="form-control" placeholder="Your Message" rows="5"></textarea>
                         </div>
                         <p>
                             <small>
-                            If this is related to a specific course, please include the course title and any relevant sections being affected.
+                                If this is related to a specific course, please include the course title and any relevant sections being affected.
                             </small>
                         </p>
                         <div class="form-group">

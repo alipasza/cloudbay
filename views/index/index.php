@@ -45,7 +45,7 @@
                 <a href="<?php echo URL; ?>vision"><img src="<?php echo URL; ?>public/ico/lamp.png" class="img-responsive" alt="Vision"></a>
                 <h3><a href="<?php echo URL; ?>vision">Vision</a></h3>
                 <p class="text-center">
-                Your vision is our mission ! In a perfect world there would be no need for any IT system. Unfortunately, we can not change the world, but we can try to offer the perfect solution 
+                    Your vision is our mission ! In a perfect world there would be no need for any IT system. Unfortunately, we can not change the world, but we can try to offer the perfect solution 
                 </p>
             </div>
             <div class="col-md-4">
@@ -122,7 +122,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-                <a href="<?php echo URL; ?>login/register" class="btn btn-primary btn-xl">Create a Free Account</a>
+            <a href="<?php echo URL; ?>login/register" class="btn btn-primary btn-xl">Create a Free Account</a>
         </div>
     </div>
 </div>

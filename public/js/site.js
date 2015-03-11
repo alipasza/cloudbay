@@ -1,12 +1,12 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
     // $('.carousel').carousel({interval: 5000});
     $("[data-toggle=tooltip]").tooltip();
     $("[data-toggle=popover]").popover({
         trigger: 'hover'
     });
 
-    $("a[href='#top']").click(function() {
-        $("html, body").animate({ scrollTop: 0 }, "slow");
+    $("a[href='#top']").click(function () {
+        $("html, body").animate({scrollTop: 0}, "slow");
         return false;
     });
 
@@ -16,10 +16,10 @@ jQuery(document).ready(function($) {
 
     if ($.isFunction($.fn.expander)) {
         $('div.expandable').expander({
-            slicePoint:       150,
-            expandPrefix:     ' ',
-            expandText:       '(more)',
-            collapseTimer:    5000,
+            slicePoint: 150,
+            expandPrefix: ' ',
+            expandText: '(more)',
+            collapseTimer: 5000,
             userCollapseText: '(less)',
             expandEffect: 'slideDown',
             collapseEffect: 'slideUp',
@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
         });
     }
 
-    $(".disable-click").click(function(evt) {
+    $(".disable-click").click(function (evt) {
         $(this).addClass('disabled');
         return true;
     });
@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
     }
 
     $(document).scroll(function () {
-        var scroll  = $(this).scrollTop();
+        var scroll = $(this).scrollTop();
         if (scroll > 600) {
             $('#goto-top').removeClass('hide')
         } else {
@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
 
     toggleLogo();
     // Detect when to show min logo
-    $(window).resize(function() {
+    $(window).resize(function () {
         toggleLogo()
     });
 

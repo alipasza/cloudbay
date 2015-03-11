@@ -49,7 +49,7 @@ class View {
         return true;
     }
 
-        public function validateTextAndNumber($str, &$retValue, $minLenStr = 0, $maxLenStr = 128) {
+    public function validateTextAndNumber($str, &$retValue, $minLenStr = 0, $maxLenStr = 128) {
 
         //$retValue = '';
 
@@ -70,7 +70,7 @@ class View {
 
         return true;
     }
-    
+
     public function validateEmail($email, &$retValue) {
 
         //$retValue = '';
@@ -109,5 +109,7 @@ class View {
         $data = htmlspecialchars($data);
         return $data;
     }
+
 }
+
 ?>

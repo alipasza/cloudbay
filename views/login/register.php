@@ -3,7 +3,7 @@
     <div class="container container-fluid inner">
         <div class="row">
             <div id="alert-danger" class="col-md-4 col-md-offset-2">
-                <div id="alert-danger" class="alert alert-danger" <?php if (strlen($msg)==0): ?>style="display:none"<?php endif; ?>><?php echo $msg;?></div>
+                <div id="alert-danger" class="alert alert-danger" <?php if (strlen($msg) == 0): ?>style="display:none"<?php endif; ?>><?php echo $msg; ?></div>
             </div>
         </div>        
         <div class="row">
@@ -19,16 +19,16 @@
                                 Login with your CloudBay account.
                             </p>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="text" id="alias" name="alias" autofocus="autofocus" placeholder="Alias" value="<?php echo $this->alias;?>"/>
+                                <input class="form-control input-lg" type="text" id="alias" name="alias" autofocus="autofocus" placeholder="Alias" value="<?php echo $this->alias; ?>"/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="text" id="email" name="email" placeholder="Email" value="<?php echo $this->email;?>"/>
+                                <input class="form-control input-lg" type="text" id="email" name="email" placeholder="Email" value="<?php echo $this->email; ?>"/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="text" id="password" name="password" placeholder="Password" value="<?php echo $this->password;?>"/>
+                                <input class="form-control input-lg" type="text" id="password" name="password" placeholder="Password" value="<?php echo $this->password; ?>"/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="text" name="confirm_password" placeholder="Confirm Password" value="<?php echo $this->confirm_password;?>"/>
+                                <input class="form-control input-lg" type="text" name="confirm_password" placeholder="Confirm Password" value="<?php echo $this->confirm_password; ?>"/>
                             </div>                            
                             <!--<div class="form-group">
                                 <label class="form-group">Role</label>

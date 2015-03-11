@@ -3,7 +3,7 @@
     <div class="container container-fluid inner">
         <div class="row">
             <div id="alert-danger" class="col-md-4 col-md-offset-2">
-                <div id="alert-danger" class="alert alert-danger" <?php if (strlen($msg)==0): ?>style="display:none"<?php endif; ?>><?php echo $msg;?></div>
+                <div id="alert-danger" class="alert alert-danger" <?php if (strlen($msg) == 0): ?>style="display:none"<?php endif; ?>><?php echo $msg; ?></div>
             </div>
         </div>  
         <div class="row">
@@ -19,10 +19,10 @@
                                 Login with your CloudBay account.
                             </p>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="text" id="email" name="email" placeholder="Email" value="<?php echo $this->email;?>" <?php if (strlen($this->email)==0):?>autofocus="autofocus"<?php endif;?>/>
+                                <input class="form-control input-lg" type="text" id="email" name="email" placeholder="Email" value="<?php echo $this->email; ?>" <?php if (strlen($this->email) == 0): ?>autofocus="autofocus"<?php endif; ?>/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control input-lg" type="password" id="password" name="password" placeholder="Password" value="<?php echo $this->password;?>" <?php if (strlen($this->email)!=0):?>autofocus="autofocus"<?php endif;?>/>
+                                <input class="form-control input-lg" type="password" id="password" name="password" placeholder="Password" value="<?php echo $this->password; ?>" <?php if (strlen($this->email) != 0): ?>autofocus="autofocus"<?php endif; ?>/>
                             </div>
                             <!--<div class="form-group">
                                 <label class="form-group">Role</label>

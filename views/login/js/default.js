@@ -10,12 +10,15 @@ $(function () {
 
 function FocusOnPassword() {
     document.getElementById("password").focus();
-};
+}
+;
 
 function FocusOnLogin() {
     document.getElementById("email").focus();
-};
+}
+;
 
 function FocusOnAlias() {
     document.getElementById("alias").focus();
-};
+}
+;

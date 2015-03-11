@@ -2,8 +2,8 @@
 <div id="title-bar" class="">
     <div class="container container-fluid">
         <div class="col-md-12">
-            
-<h1>Terms and Privacy</h1>
+
+            <h1>Terms and Privacy</h1>
 
         </div>
     </div>
@@ -11,13 +11,13 @@
 
 <div class="container container-fluid ">
     <div class="col-md-12">
-        
+
     </div>
 </div>
 
 <div class="container container-fluid ">
     <div class="col-md-12">
-            </div>
+    </div>
 </div>
 
 
@@ -155,21 +155,21 @@
             </h2>
 
             <p>
-            We are using the Google Analytics Demographics and Interest Reporting. This information
-            is used as statistics for marketing purposes.
+                We are using the Google Analytics Demographics and Interest Reporting. This information
+                is used as statistics for marketing purposes.
             </p>
 
             <p>
-            If such Google Cookies do not sit well with you, you can opt-out of the Google Analytics
-            options <a href="https://tools.google.com/dlpage/gaoptout/" target="_blank">here</a>.
+                If such Google Cookies do not sit well with you, you can opt-out of the Google Analytics
+                options <a href="https://tools.google.com/dlpage/gaoptout/" target="_blank">here</a>.
             </p>
 
             <h2 id="facebook-privacy">
                 Facebook Privacy
             </h2>
             <p>
-            If you choose to login through the Facebook API, we will store a minimal amount of data
-            to securely log you in. Your Facebook privacy and security is managed by <a href="http://facebook.com" target="_blank">Facebook</a>.
+                If you choose to login through the Facebook API, we will store a minimal amount of data
+                to securely log you in. Your Facebook privacy and security is managed by <a href="http://facebook.com" target="_blank">Facebook</a>.
             </p>
 
             <ul>
@@ -183,33 +183,33 @@
             </ul>
 
             <p>
-            Note: If you choose to disable the CloudBay Facebook Application
-            you will have to re-approve it through Facebook in order to login back into your account.
+                Note: If you choose to disable the CloudBay Facebook Application
+                you will have to re-approve it through Facebook in order to login back into your account.
             </p>
 
             <h2 id="purchase-security">Purchase Security</h2>
             <ul>
-    <li><strong>Card Purchases</strong>
-        <ul>
-            <li>Your card details are <strong>never</strong> posted or stored to CloudBay server(s).</li>
-            <li><strong>PCI Level 1</strong> Compliance is handled by the <strong>Stripe Payment Gateway</strong> (<a target="_blank" href="https://stripe.com/help/security">More Details</a>).</li>
-            <li>Data is sent to <strong>Stripe</strong> through <strong>Comodo's 128-Bit SSL Connection</strong>.</li>
-            <li>Re-usable token(s) are <strong>never</strong> stored on CloudBay server(s), it's a one time charge.</li>
-            <li>You will receive a receipt for your purchase from CloudBay and Stripe (You are only charged once).</li>
-        </ul>
-    <li><strong>PayPal Purchases</strong>
-        <ul>
-            <li>Personal Paypal information is <strong>never</strong> stored to CloudBay server(s). However, we do store the alphanumeric Transaction ID to reference your purchase.</li>
-            <li>You will be taken to a <strong>PayPal Express Checkout</strong> to purchase.</li>
-            <li>Always ensure the <strong>PayPal SSL Certificate</strong> and site originates from PayPal.com.</li>
-            <li>All PayPal security is managed by <a href="https://paypal.com" target="_blank">PayPal Inc</a>.</li>
-        </ul>
-</ul>
+                <li><strong>Card Purchases</strong>
+                    <ul>
+                        <li>Your card details are <strong>never</strong> posted or stored to CloudBay server(s).</li>
+                        <li><strong>PCI Level 1</strong> Compliance is handled by the <strong>Stripe Payment Gateway</strong> (<a target="_blank" href="https://stripe.com/help/security">More Details</a>).</li>
+                        <li>Data is sent to <strong>Stripe</strong> through <strong>Comodo's 128-Bit SSL Connection</strong>.</li>
+                        <li>Re-usable token(s) are <strong>never</strong> stored on CloudBay server(s), it's a one time charge.</li>
+                        <li>You will receive a receipt for your purchase from CloudBay and Stripe (You are only charged once).</li>
+                    </ul>
+                <li><strong>PayPal Purchases</strong>
+                    <ul>
+                        <li>Personal Paypal information is <strong>never</strong> stored to CloudBay server(s). However, we do store the alphanumeric Transaction ID to reference your purchase.</li>
+                        <li>You will be taken to a <strong>PayPal Express Checkout</strong> to purchase.</li>
+                        <li>Always ensure the <strong>PayPal SSL Certificate</strong> and site originates from PayPal.com.</li>
+                        <li>All PayPal security is managed by <a href="https://paypal.com" target="_blank">PayPal Inc</a>.</li>
+                    </ul>
+            </ul>
 
             <h2 id="misc-security">Misc. Security</h2>
             <p>
-            Anything related to your data and/or credentials is protected using modern security
-            standards such as, but not limited to:
+                Anything related to your data and/or credentials is protected using modern security
+                standards such as, but not limited to:
             </p>
             <ul>
                 <li>Advanced Cryptography Alogirthms (SHA512, BCrypt)</li>

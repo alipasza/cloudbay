@@ -28,22 +28,22 @@ class Login_Model extends Model {
         }
         return false;
     }
-    
+
     public function RegisterLogin($alias, $login, $password, &$role = 'default') {
 
         $sth = $this->db->prepare("INSERT INTO users (alias, login , password , role) VALUES (:alias, :login, :password, :role)");
-        if ( $sth->execute(array(
-            ':alias' => $alias,
-            ':login' => $login,
-            ':password' => MD5($password),
-            ':role' => $role
-        ))
-                ) {
+        if ($sth->execute(array(
+                    ':alias' => $alias,
+                    ':login' => $login,
+                    ':password' => MD5($password),
+                    ':role' => $role
+                ))
+        ) {
             return true;
         }
         return false;
     }
-    
+
     public function isEmailAlreadyRegistered($login) {
         $sth = $this->db->prepare("SELECT id FROM users WHERE login = :login");
         $sth->execute(array(
