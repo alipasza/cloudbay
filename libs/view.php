@@ -2,8 +2,15 @@
 
 class View {
 
+    var $ltext;
+
     function __construct() {
-        //echo '<br>uruchomiono konstruktor klasy bazowej View (libs\view.php)'
+        //require 'config/lang/multilingual.php';
+        //$curl = 1;
+
+        //$ltext[1]['services'] = "Welcome to my site. blah blah blah";
+        //$ltext[1]['customers'] = "Please enter your username and password to login";
+        //echo 'x' . $ltext[1]['services'];
     }
 
     public function Pokaz() {
@@ -14,6 +21,8 @@ class View {
     //$bodyName - lancuch ktory trafi do html ->body-> 
     //$msg - komunikat przekazywany do strpny html
     public function render($name, $bodyNamePar = 'body', $msgPar = '') {
+
+        require 'config/lang/multilingual.php';
 
         $bodyName = $bodyNamePar;
         $msg = $msgPar;
