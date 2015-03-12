@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3 class="mar-none pull-right">
-                            <sup>$</sup>24.95                                                                            </h3>
+                            <sup>&euro;</sup>24.95                                                                            </h3>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3 class="mar-none pull-right">
-                            <sup>$</sup>24.95                                                                            </h3>
+                            <sup>&euro;</sup>24.95                                                                            </h3>
                     </div>
                 </div>
 
@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3 class="mar-none pull-right">
-                            <sup>$</sup>19.95                                                                            </h3>
+                            <sup>&euro;</sup>19.95                                                                            </h3>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3 class="mar-none pull-right">
-                            <sup>$</sup>7.95                                                                            </h3>
+                            <sup>&euro;</sup>7.95                                                                            </h3>
                     </div>
                 </div>
 
@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3 class="mar-none pull-right">
-                            <sup>$</sup>24.95                                                                            </h3>
+                            <sup>&euro;</sup>24.95                                                                            </h3>
                     </div>
                 </div>
 
