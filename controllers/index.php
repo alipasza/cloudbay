@@ -8,21 +8,30 @@ class Index extends Controller {
     }
 
     public function index() {
-        require 'libs/cache/top-cache.php';
-        $this->view->render('index/index', 'page-index');
-        require 'libs/cache/bottom-cache.php';
+
+        if (isset($_GET["lang"])) {
+            Session::set("lang", $_GET["lang"]);
+        } else {
+            Session::set("lang", "EN");
+        }
+
+        echo 'get=' . Session::get("lang");
+        if (isdebug) {
+
+            $this->view->render('index/index', 'page-index');
+        } else {
+
+            require 'libs/cache/top-cache.php';
+            $this->view->render('index/index', 'page-index');
+            require 'libs/cache/bottom-cache.php';
+        }
     }
+/*
+    public function chooseLang() {
 
-    public function aboutus() {
-
-        $this->view->render('index/terms', 'page-index-action-terms');
+        header('location: ../index');
     }
-
-    public function details() {
-
-        $this->view->render('index/index', 'page-details');
-    }
-
+*/
 }
 
 ?>

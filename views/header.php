@@ -32,9 +32,6 @@
         ?>
     </head>
     <body id="<?php echo $bodyName; ?>">
-        <div class="lang-switcher">
-            <a class="language" href="http://www.kir.pl/en/" title="Eng">Eng</a>
-        </div>
         <div class="overlay hide"></div>
         <div id="top"></div>
         <div id="header">
@@ -60,16 +57,29 @@
                             <li><a class="btn btn-login" href="<?php echo URL; ?>customers">Customers</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>community">Community</a></li>
                             <li><a class="btn btn-login" href="<?php echo URL; ?>live">Live Training</a></li>
-                        </ul>
+                        </ul>           
+                        
+                        <div class="btn-group pull-right" role="group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href=<?php echo URL . 'index?lang=PL'; ?>>
+                                <?php echo Session::get("lang"); ?>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href=<?php echo URL . 'index?lang=PL'; ?>>PL</a></li>
+                                <li><a href=<?php echo URL . 'index?lang=EN'; ?>>EN</a></li>
+                                <li><a href=<?php echo URL . 'index?lang=DE'; ?>>DE</a></li>
+                                <li><a href=<?php echo URL . 'index?lang=RU'; ?>>RU</a></li>
+                            </ul>
+                        </div>
 
                         <ul class="nav navbar-nav pull-right">
                             <?php if (Session::get('loggedIn') == true): ?>
 
-                                            <!--    <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard">Dashboard</a></li>
-                                                <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard/logout">Logout</a></li> -->
+                                                        <!--    <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard">Dashboard</a></li>
+                                                            <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard/logout">Logout</a></li> -->
 
                                 <li class="mar-right-10">
-                                    <a class="btn btn-primary" href="<?php echo URL; ?>dashboard#available-courses">Dashboard</a>
+                                    <a class="btn btn-primary" href="<?php echo URL; ?>dashboard#available-courses">DashboardXXX</a>
                                 </li>
                                 <li class="dropdown">
                                     <a data-toggle="dropdown" class="btn btn-primary" href="#">alipasza <span class="caret"></span></a>
