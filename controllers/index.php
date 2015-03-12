@@ -12,10 +12,12 @@ class Index extends Controller {
         if (isset($_GET["lang"])) {
             Session::set("lang", $_GET["lang"]);
         } else {
-            Session::set("lang", "EN");
+            if ( empty(Session::get("lang"))) {
+                Session::set("lang", "EN");
+            }
         }
 
-        echo 'get=' . Session::get("lang");
+        //echo 'get=' . Session::get("lang");
         if (isdebug) {
 
             $this->view->render('index/index', 'page-index');

@@ -10,7 +10,14 @@ class Dashboard extends Controller {
         Session::init();
         $loggedIn = Session::get('loggedIn');
         if ($loggedIn == false) {
-            Session::destroy();
+            //Session::destroy();
+            Session::del("email");
+            Session::del("role");
+            Session::del("loggedIn");
+            Session::del("joindatetime");
+            Session::del("timezone");
+            Session::del("info");
+
             header('location: ../login');
             exit;
         }
@@ -30,7 +37,14 @@ class Dashboard extends Controller {
 
     public function logout() {
 
-        Session::destroy();
+        //Session::destroy();
+        Session::del("email");
+        Session::del("role");
+        Session::del("loggedIn");
+        Session::del("joindatetime");
+        Session::del("timezone");
+        Session::del("info");
+
         header('location: ../login');
         exit;
     }

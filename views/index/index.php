@@ -3,12 +3,12 @@
     <div class="container container-fluid">
         <div class="row">
             <div class="col-md-12 inner">
-                <h1 class="title">Join to CloudBay Site</h1>
-                <p class="subtitle">Agile CRM system for small business in Europe."</p>
+                <h1 class="title"><?php echo $this->ltext[Session::get("lang")]['index-title'];?></h1>
+                <p class="subtitle"><?php echo $this->ltext[Session::get("lang")]['index-subtitle'];?></p>
 
                 <div class="pad-top-20">
-                    <a class="btn btn-xl btn-default" href="<?php echo URL; ?>login/register">Create a Free Account</a>
-                    <h4>PHP mvc, HTML, jQuery, mySQL &amp; Microsoft Azure Services Platform !</h4>
+                    <a class="btn btn-xl btn-default" href="<?php echo URL; ?>login/register"><?php echo $this->ltext[Session::get("lang")]['index-createaccount'];?></a>
+                    <h4>PHP mvc, HTML, jQuery, mySQL &amp; Microsoft Azure or Google Cloud !</h4>
 
                 </div>
             </div>
@@ -122,7 +122,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <a href="<?php echo URL; ?>login/register" class="btn btn-primary btn-xl">Create a Free Account</a>
+            <a href="<?php echo URL; ?>login/register" class="btn btn-primary btn-xl"><?php echo $this->ltext[Session::get("lang")]['index-createaccount'];?></a>
         </div>
     </div>
 </div>

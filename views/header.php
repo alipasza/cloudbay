@@ -53,10 +53,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-responsive-collapse">
                         <ul class="nav navbar-nav pull-left nav-public">
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>services"><?php echo $this->ltext[Session::get("lang")]['services'];?></a></li>
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>customers">Customers</a></li>
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>community">Community</a></li>
-                            <li><a class="btn btn-login" href="<?php echo URL; ?>live">Live Training</a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>services"><?php echo $this->ltext[Session::get("lang")]['header-services'];?></a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>customers"><?php echo $this->ltext[Session::get("lang")]['header-customers'];?></a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>community"><?php echo $this->ltext[Session::get("lang")]['header-community'];?></a></li>
+                            <li><a class="btn btn-login" href="<?php echo URL; ?>live"><?php echo $this->ltext[Session::get("lang")]['header-training'];?></a></li>
                         </ul>           
                         
                         <div class="btn-group pull-right" role="group">
@@ -79,20 +79,20 @@
                                                             <li class="mar-right-10"><a class="btn btn-primary" href="<?php echo URL; ?>dashboard/logout">Logout</a></li> -->
 
                                 <li class="mar-right-10">
-                                    <a class="btn btn-primary" href="<?php echo URL; ?>dashboard#available-courses">DashboardXXX</a>
+                                    <a class="btn btn-primary" href="<?php echo URL; ?>dashboard#available-courses"><?php echo $this->ltext[Session::get("lang")]['header-dashboard'];?></a>
                                 </li>
                                 <li class="dropdown">
                                     <a data-toggle="dropdown" class="btn btn-primary" href="#">alipasza <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="<?php echo URL; ?>dashboard/account"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
-                                        <li><a href="<?php echo URL; ?>dashboard/support"><span class="glyphicon glyphicon-comment"></span> Support</a></li>
+                                        <li><a href="<?php echo URL; ?>dashboard/account"><span class="glyphicon glyphicon-user"></span><?php echo $this->ltext[Session::get("lang")]['header-myaccount'];?></a></li>
+                                        <li><a href="<?php echo URL; ?>dashboard/support"><span class="glyphicon glyphicon-comment"></span><?php echo $this->ltext[Session::get("lang")]['header-support'];?></a></li>
                                         <li class="divider"></li>
-                                        <li><a href="<?php echo URL; ?>dashboard/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                                        <li><a href="<?php echo URL; ?>dashboard/logout"><span class="glyphicon glyphicon-log-out"></span><?php echo $this->ltext[Session::get("lang")]['header-logout'];?></a></li>
                                     </ul>
                                 </li>
 
                             <?php else: ?>                            
-                                <li class="mar-right-10"><a class="btn btn-login" href="<?php echo URL; ?>login">Login</a></li>
+                                <li class="mar-right-10"><a class="btn btn-login" href="<?php echo URL; ?>login"><?php echo $this->ltext[Session::get("lang")]['header-login'];?></a></li>
                                 <?php endif; ?>
                         </ul>
 
